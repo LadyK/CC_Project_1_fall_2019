@@ -65,6 +65,13 @@ function keyPressed() {
   b1.yPos = random(height);
 }
 
+function newbie(){
+ if(mousePressed){
+  console.log("hello");
+
+
+}
+
 class Blob {
   
   constructor(x_, y_, n, w_){
